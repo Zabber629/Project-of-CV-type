@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #817e7e;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(210, 216, 189);
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.a{
+    width: 120px;
+    height: 100px;
+    border:3px solid white;
+    border-radius: 50px;
+    float: left;
+}
+.bio{
+        float: left;
+        padding: 20px;
+}
+.contact{
+        float: right;
+        padding:28px;
+
+}
+.contact a{
+    text-decoration-line: none;
+    color:teal;
+    font-weight: bold;
+
+}
+.contact a:hover{
+    text-decoration-line: underline;
+    color:yellow;
+
+}
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+.personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+
+}
+
+.left-div{
+    float:left;
+    width:30%;
+}
+.right-div{
+    float: left;
+    width:70%
+}
+.personal-hr{
+    border: solid black 1px;
+    width:100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.edu-left{
+    float: left;
+    width:45%;
+}
+.edu-right{
+    float: right;
+    width:45%;
+}
+.footer{
+    background-color: grey;
+    text-align: center;
+    padding:10px;
+}
+.footer a{
+    color:white;
+    text-decoration-line: none;
+    margin:20px;
+}
+.footer p{
+    color:white;
+    margin-top:20px;
+}
